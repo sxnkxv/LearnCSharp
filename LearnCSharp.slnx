@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/CSharpBasics/">
+    <Project Path="HelloWorld/HelloWorld.csproj" Id="4ebf3761-bbac-43b2-a34f-c9281da7669d" />
+  </Folder>
+</Solution>
