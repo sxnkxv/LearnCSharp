@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/CSharpBasics/">
+    <Project Path="ConditionalConstructions/ConditionalConstructions.csproj" Id="67f4d79f-239e-4987-bcd6-81d7d965db23" />
     <Project Path="HelloWorld/HelloWorld.csproj" Id="4ebf3761-bbac-43b2-a34f-c9281da7669d" />
     <Project Path="InputOutput/InputOutput.csproj" Id="e69d750f-b1c6-44fa-92d5-9f01ed4e697f" />
   </Folder>
