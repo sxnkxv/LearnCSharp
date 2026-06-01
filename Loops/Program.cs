@@ -44,6 +44,32 @@
                 Console.WriteLine();
             }
         }
+        public static void TaskThree()
+        {
+            /* 
+             * За каждый месяц банк начисляет к сумме вклада 7% от суммы. Напишите консольную программу, в которую пользователь вводит сумму вклада и 
+             * количество месяцев. А банк вычисляет конечную сумму вклада с учетом начисления процентов за каждый месяц.Для вычисления суммы с учетом 
+             * процентов используйте цикл while. Для ввода суммы вклада используйте выражение Convert.ToDecimal(Console.ReadLine()) (сумма вклада будет 
+             * представлять тип decimal). 
+             */
+
+            Console.Write("Введите сумму вклада: ");
+            decimal depositAmount = Convert.ToDecimal(Console.ReadLine());
+
+            Console.Write("Введите количество месяцев: ");
+            int monthsCount = Convert.ToInt32(Console.ReadLine());
+
+            const decimal PERCENT = 0.07m;
+
+            int month = 1;
+            while (month <= monthsCount)
+            {
+                depositAmount += (depositAmount * PERCENT);
+                month++;
+            }
+
+            Console.WriteLine($"Ваш вклад составит: {depositAmount}");
+        }
 
         static void Main(string[] args) { TaskTwo(); }
     }
